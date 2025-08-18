@@ -1,0 +1,33 @@
+[project]
+name = "context-aware-domain-generalization"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "clip",
+    "freia>=0.2",
+    "gdown>=5.2.0",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.4.6",
+    "lightning-trainable",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pip>=25.2",
+    "pytest>=8.4.1",
+    "pytest-cov>=6.2.1",
+    "pytest-xdist>=3.8.0",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.16.1",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "torchaudio>=2.8.0",
+    "torchvision>=0.23.0",
+    "tqdm>=4.67.1",
+    "uv>=0.8.11",
+    "wilds>=2.0.0",
+]
+
+[tool.uv.sources]
+lightning-trainable = { git = "https://github.com/LarsKue/lightning-trainable.git", rev = "103a3e260998f174bc0020f86fd54113ebff93c3" }
+clip = { git = "https://github.com/openai/CLIP.git", rev = "a1d071733d7111c9c014f024669f959182114e33" }
