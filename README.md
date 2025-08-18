@@ -14,7 +14,7 @@ uv pip install -e .
 
 # Repository Overview
 
-Models can be found in `src/models`.
+Models can be found in `src/adaptive_dg/models`.
 
 Our experiments were run from start to finish with notebooks, which you can find in the `experiments` folder.
 
