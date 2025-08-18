@@ -17,6 +17,59 @@ wheels = [
 ]
 
 [[package]]
+name = "adaptive-dg"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "clip" },
+    { name = "freia" },
+    { name = "gdown" },
+    { name = "jupyter" },
+    { name = "jupyterlab" },
+    { name = "lightning-trainable" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pip" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+    { name = "pytest-xdist" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+    { name = "seaborn" },
+    { name = "torch" },
+    { name = "torchaudio" },
+    { name = "torchvision" },
+    { name = "tqdm" },
+    { name = "uv" },
+    { name = "wilds" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "clip", git = "https://github.com/openai/CLIP.git?rev=a1d071733d7111c9c014f024669f959182114e33" },
+    { name = "freia", specifier = ">=0.2" },
+    { name = "gdown", specifier = ">=5.2.0" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "jupyterlab", specifier = ">=4.4.6" },
+    { name = "lightning-trainable", git = "https://github.com/LarsKue/lightning-trainable.git?rev=103a3e260998f174bc0020f86fd54113ebff93c3" },
+    { name = "matplotlib", specifier = ">=3.10.5" },
+    { name = "numpy", specifier = ">=2.3.2" },
+    { name = "pip", specifier = ">=25.2" },
+    { name = "pytest", specifier = ">=8.4.1" },
+    { name = "pytest-cov", specifier = ">=6.2.1" },
+    { name = "pytest-xdist", specifier = ">=3.8.0" },
+    { name = "scikit-learn", specifier = ">=1.7.1" },
+    { name = "scipy", specifier = ">=1.16.1" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "torch", specifier = ">=2.8.0" },
+    { name = "torchaudio", specifier = ">=2.8.0" },
+    { name = "torchvision", specifier = ">=0.23.0" },
+    { name = "tqdm", specifier = ">=4.67.1" },
+    { name = "uv", specifier = ">=0.8.11" },
+    { name = "wilds", specifier = ">=2.0.0" },
+]
+
+[[package]]
 name = "aiohappyeyeballs"
 version = "2.6.1"
 source = { registry = "https://pypi.org/simple" }
@@ -415,59 +468,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/4c/13/7d740c5849255756bc17888787313b61fd38a0a8304fc4f073dfc46122aa/comm-0.2.3.tar.gz", hash = "sha256:2dc8048c10962d55d7ad693be1e7045d891b7ce8d999c97963a5e3e99c055971", size = 6319 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/60/97/891a0971e1e4a8c5d2b20bbe0e524dc04548d2307fee33cdeba148fd4fc7/comm-0.2.3-py3-none-any.whl", hash = "sha256:c615d91d75f7f04f095b30d1c1711babd43bdc6419c1be9886a85f2f4e489417", size = 7294 },
-]
-
-[[package]]
-name = "context-aware-domain-generalization"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "clip" },
-    { name = "freia" },
-    { name = "gdown" },
-    { name = "jupyter" },
-    { name = "jupyterlab" },
-    { name = "lightning-trainable" },
-    { name = "matplotlib" },
-    { name = "numpy" },
-    { name = "pip" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-    { name = "pytest-xdist" },
-    { name = "scikit-learn" },
-    { name = "scipy" },
-    { name = "seaborn" },
-    { name = "torch" },
-    { name = "torchaudio" },
-    { name = "torchvision" },
-    { name = "tqdm" },
-    { name = "uv" },
-    { name = "wilds" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "clip", git = "https://github.com/openai/CLIP.git?rev=a1d071733d7111c9c014f024669f959182114e33" },
-    { name = "freia", specifier = ">=0.2" },
-    { name = "gdown", specifier = ">=5.2.0" },
-    { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "jupyterlab", specifier = ">=4.4.6" },
-    { name = "lightning-trainable", git = "https://github.com/LarsKue/lightning-trainable.git?rev=103a3e260998f174bc0020f86fd54113ebff93c3" },
-    { name = "matplotlib", specifier = ">=3.10.5" },
-    { name = "numpy", specifier = ">=2.3.2" },
-    { name = "pip", specifier = ">=25.2" },
-    { name = "pytest", specifier = ">=8.4.1" },
-    { name = "pytest-cov", specifier = ">=6.2.1" },
-    { name = "pytest-xdist", specifier = ">=3.8.0" },
-    { name = "scikit-learn", specifier = ">=1.7.1" },
-    { name = "scipy", specifier = ">=1.16.1" },
-    { name = "seaborn", specifier = ">=0.13.2" },
-    { name = "torch", specifier = ">=2.8.0" },
-    { name = "torchaudio", specifier = ">=2.8.0" },
-    { name = "torchvision", specifier = ">=0.23.0" },
-    { name = "tqdm", specifier = ">=4.67.1" },
-    { name = "uv", specifier = ">=0.8.11" },
-    { name = "wilds", specifier = ">=2.0.0" },
 ]
 
 [[package]]

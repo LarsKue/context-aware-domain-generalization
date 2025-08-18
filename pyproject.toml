@@ -1,5 +1,5 @@
 [project]
-name = "context-aware-domain-generalization"
+name = "adaptive_dg"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
