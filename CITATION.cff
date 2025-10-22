@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: If you use this software, please cite both the article from preferred-citation and the software itself.
+authors:
+  - family-names: Jens Müller
+    given-names: Lars Kühmichel
+  - family-names: Martin Rohbeck
+    given-names: Stefan T. Radev
+title: 'Towards Context-Aware Domain Generalization: Understanding the Benefits and Limits of Marginal Transfer Learning'
+version: 1.0.0
+url: https://openreview.net/forum?id=AZL2MTHhWU
+date-released: '2025-10-22'
+preferred-citation:
+  authors:
+    - family-names: Jens Müller
+      given-names: Lars Kühmichel
+    - family-names: Martin Rohbeck
+      given-names: Stefan T. Radev
+  title: 'Towards Context-Aware Domain Generalization: Understanding the Benefits and Limits of Marginal Transfer Learning'
+  url: https://openreview.net/forum?id=AZL2MTHhWU
+  type: conference-paper
+  year: '2025'
+  collection-title: 'NeurIPS 2025 Workshop: Reliable ML from Unreliable Data'
+  conference: {}
+  publisher: {}
