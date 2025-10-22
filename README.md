@@ -22,4 +22,12 @@ Our experiments were run from start to finish with notebooks, which you can find
 
 If you find this repository useful for your research, please cite the corresponding paper:
 
-(TODO after acceptance)
+```
+@inproceedings{muller2025towards,
+    title={Towards Context-Aware Domain Generalization: Understanding the Benefits and Limits of Marginal Transfer Learning},
+    author={Jens M{\"u}ller and Lars K{\"u}hmichel and Martin Rohbeck and Stefan T. Radev and Ullrich Koethe},
+    booktitle={NeurIPS 2025 Workshop: Reliable ML from Unreliable Data},
+    year={2025},
+    url={https://openreview.net/forum?id=AZL2MTHhWU}
+}
+```
