@@ -16,7 +16,7 @@ date-released: '2025-10-22'
 preferred-citation:
   authors:
     - family-names: Müller
-    given-names: Jens
+      given-names: Jens
     - family-names: Kühmichel
       given-names: Lars
     - family-names: Rohbeck
